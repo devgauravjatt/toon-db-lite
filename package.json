@@ -1,8 +1,8 @@
 {
   "name": "toon-db-lite",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A lightning-fast, file-based database powered by the TOON format with built-in indexing and smart query optimization.",
-  "author": "Dev Gaurav Jatt",
+  "author": "devgauravjatt",
   "license": "MIT",
   "keywords": [
     "database",
@@ -15,13 +15,13 @@
     "validation",
     "lightweight"
   ],
-  "homepage": "https://github.com/your-username/toon-db-lite#readme",
+  "homepage": "https://github.com/devgauravjatt/toon-db-lite#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/toon-db-lite.git"
+    "url": "git+https://github.com/devgauravjatt/toon-db-lite.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/toon-db-lite/issues"
+    "url": "https://github.com/devgauravjatt/toon-db-lite/issues"
   },
   "type": "module",
   "main": "./dist/index.cjs",
