@@ -1,0 +1,65 @@
+{
+  "name": "toon-db-lite",
+  "version": "1.0.0",
+  "description": "A lightning-fast, file-based database powered by the TOON format with built-in indexing and smart query optimization.",
+  "author": "Dev Gaurav Jatt",
+  "license": "MIT",
+  "keywords": [
+    "database",
+    "file-based",
+    "toon",
+    "indexing",
+    "orm",
+    "json-alternative",
+    "zod",
+    "validation",
+    "lightweight"
+  ],
+  "homepage": "https://github.com/your-username/toon-db-lite#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/toon-db-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/toon-db-lite/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "types": "tsc --noEmit",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "test": "rstest",
+    "test:watch": "rstest --watch"
+  },
+  "dependencies": {
+    "@toon-format/toon": "^2.1.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.57.7",
+    "@rslib/core": "^0.20.0",
+    "@rstest/adapter-rslib": "^0.2.1",
+    "@rstest/core": "^0.9.0",
+    "@types/node": "^24.12.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "typescript": "^5.9.3"
+  }
+}
